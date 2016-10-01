@@ -10,5 +10,9 @@ If an  argument is not specified, the default graviton mass is 500 GeV and the d
 Currently, the graviton is assumed to be a scalar that starts at rest, although I'll be modifying this over the 
 next week.
 
+When you increase the graviton's mass, you can see the b-quarks from the individual Higgses become collimated.
+For example, compare the deltaR b-quark distributions for mX = 300 and mX = 2000 (GeV), and you can see why using
+a large-R jet gives better analysis results than two resolved anti-kT jets with R = 0.4.
+
 Last updated 9/31/16
 
