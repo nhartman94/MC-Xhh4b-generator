@@ -1,0 +1,14 @@
+Right now the script Xhh4b.py has an optional input the mass of the graviton mass and the number of iterations 
+of X->hh->4b graviton simulations for the given masspoint
+
+To input a graviton mass of 800 GeV with 1000 iterations, type into the command line
+
+python --mX 800 --N 1000
+
+If an  argument is not specified, the default graviton mass is 500 GeV and the default number of iterations is 100.
+
+Currently, the graviton is assumed to be a scalar that starts at rest, although I'll be modifying this over the 
+next week.
+
+Last updated 9/31/16
+
