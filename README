@@ -14,5 +14,13 @@ When you increase the graviton's mass, you can see the b-quarks from the individ
 For example, compare the deltaR b-quark distributions for mX = 300 and mX = 2000 (GeV), and you can see why using
 a large-R jet gives better analysis results than two resolved anti-kT jets with R = 0.4.
 
-Last updated 9/31/16
+
+The next file is XXhh4b_invXformSampling_scalarGraviton.py takes the same input, but it calculates the output using the more efficient
+method of inverse transform sampling.  This is just to test that I get the same results when I use inverse transform sampling as with
+the old method.
+(I'll probably delete this file eventually.)
+
+Finally: uses XXhh4b_invXformSampling.py using inverse sampling to decay the spin 2 graviton and the scalar Higgs bosons.
+
+Last updated 10/3/16
 
