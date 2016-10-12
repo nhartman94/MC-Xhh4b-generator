@@ -1,20 +1,12 @@
-Right now the script Xhh4b.py has an optional input the mass of the graviton mass and the number of iterations 
+Right now the script Xhh4b_invXformSampling.py has an optional input the mass of the graviton mass, the number of iterations, 
+and the momentum of the the graviton in the x direction 
 of X->hh->4b graviton simulations for the given masspoint
 
-To input a graviton mass of 800 GeV with 1000 iterations, type into the command line
+To input a graviton mass of 800 GeV with 1000 iterations and a momentum 100 GeV, type into the command line
 
-python --mX 800 --N 1000
+python --mX 800 --N 1000 --pX 100
 
-If an  argument is not specified, the default graviton mass is 500 GeV and the default number of iterations is 100.
-
-Currently, the graviton is assumed to be a scalar that starts at rest, although I'll be modifying this over the 
-next week.
-
-When you increase the graviton's mass, you can see the b-quarks from the individual Higgses become collimated.
-For example, compare the deltaR b-quark distributions for mX = 300 and mX = 2000 (GeV), and you can see why using
-a large-R jet gives better analysis results than two resolved anti-kT jets with R = 0.4.
-
-
-The next file XXhh4b_invXformSampling.py using inverse transform sampling to decay the spin 2 graviton and the scalar Higgs bosons.
+If an  argument is not specified, the default graviton mass is 500 GeV and the default number of iterations is 100,
+while X is assumed to decay at rest..
 
 
